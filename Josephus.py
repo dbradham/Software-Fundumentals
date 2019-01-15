@@ -1,6 +1,10 @@
 #  File: Josephus.py
 
-#  Description: die a hero or live long enough to become the villian
+#  Description: 
+# This program uses a Circular List Object to simulate the Josephus problem and it is stated as follows. 
+# There is a group of soldiers surrounded by an overwhelming enemy force. There is no hope for victory without reinforcements, 
+# so they make a pact to commit suicide.
+
 
 #  Student Name: David Bradham
 
