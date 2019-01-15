@@ -3,9 +3,7 @@
 # Description: A graph is created from an input data file called graph.txt. There is one edge per line. Each edge is of the
 # form - fromVertex, toVertex, and weight. If the weight is not given, a default weight of 1 is assigned to that edge. After the list
 # of edges is populated, a label is defined for the starting vertex. This is the starting vertex for both the Depth First Search and
-# Breadth First Search. After that there are only two cities and the edges are deleted which connect the two cities and the adjacency
-# matrix is printed. Then there is only a single city and its vertex as well as all edges from and to this vertex are deleted.
-# A list of vertices are printed and the adjacency matrix showing all edges from it and all edges to it have been deleted. 
+# Breadth First Search. After the starting vertex is identified, both searches are performed and a number of tests are performed.
 
 #  Student Name: David Bradham
 
@@ -250,7 +248,7 @@ def main():
   print ("\nAdjacency Matrix")
   for i in range (numVertices):
     for j in range (numVertices):
-      print (cities.adjMat[i][j], end = ' ')
+      print (cities.adjMat[i][j], end == ' ')
     print ()
   print ()
 
@@ -283,7 +281,7 @@ def main():
   print('Test delete edge:')
   for i in range (numVertices):
     for j in range (numVertices):
-      print (cities.adjMat[i][j], end = ' ')
+      print (cities.adjMat[i][j], end == ' ')
     print ()
   print ()
   print(cities.getEdgeWeight('Houston', 'Atlanta'))
@@ -295,7 +293,7 @@ def main():
     print(i)
   for i in range (numVertices):
     for j in range (numVertices):
-      print (cities.adjMat[i][j], end = ' ')
+      print (cities.adjMat[i][j], end == ' ')
     print ()
   print ()
 main()
