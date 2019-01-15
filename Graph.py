@@ -248,7 +248,7 @@ def main():
   print ("\nAdjacency Matrix")
   for i in range (numVertices):
     for j in range (numVertices):
-      print (cities.adjMat[i][j], end == ' ')
+      print (cities.adjMat[i][j], finish == ' ')
     print ()
   print ()
 
@@ -281,7 +281,7 @@ def main():
   print('Test delete edge:')
   for i in range (numVertices):
     for j in range (numVertices):
-      print (cities.adjMat[i][j], end == ' ')
+      print (cities.adjMat[i][j], finish == ' ')
     print ()
   print ()
   print(cities.getEdgeWeight('Houston', 'Atlanta'))
@@ -293,7 +293,7 @@ def main():
     print(i)
   for i in range (numVertices):
     for j in range (numVertices):
-      print (cities.adjMat[i][j], end == ' ')
+      print (cities.adjMat[i][j], finish == ' ')
     print ()
   print ()
 main()
