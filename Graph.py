@@ -1,9 +1,9 @@
 #  File: Graph.py
 
-#  Description: A graph is created from an input data file called graph.txt. There will be one edge per line. 
-# Each edge will be of the form - fromVertex, toVertex, and weight. If the weight is not given, a default weight of 1 is assigned to that 
-# edge.  After the list of edges there is a label for the starting vertex. This is the starting vertex for both the Depth First Search
-# and Breadth First Search. After that there are only two cities and the edges are deleted connecting the two cities and the adjacency
+# Description: A graph is created from an input data file called graph.txt. There is one edge per line. Each edge is of the
+# form - fromVertex, toVertex, and weight. If the weight is not given, a default weight of 1 is assigned to that edge. After the list
+# of edges is populated, a label is defined for the starting vertex. This is the starting vertex for both the Depth First Search and
+# Breadth First Search. After that there are only two cities and the edges are deleted which connect the two cities and the adjacency
 # matrix is printed. Then there is only a single city and its vertex as well as all edges from and to this vertex are deleted.
 # A list of vertices are printed and the adjacency matrix showing all edges from it and all edges to it have been deleted. 
 
