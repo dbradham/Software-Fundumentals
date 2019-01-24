@@ -5,18 +5,10 @@
 # There is a group of soldiers surrounded by an overwhelming enemy force. There is no hope for victory without reinforcements, 
 # so they make a pact to commit suicide.
 
-
 #  Student Name: David Bradham
-
-#  Student UT EID: dmb3767
 
 #  Course Name: CS 313E
 
-#  Unique Number: 51340
-
-#  Date Created: 3/31
-
-#  Date Last Modified: 4/2
 class Link(object):
   def __init__(self, data, next = None):
     self.data = data
